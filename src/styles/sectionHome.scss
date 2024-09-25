@@ -83,20 +83,17 @@
   }
 }
 
-
-
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
   .section-home-page {
-    width: 80%;
+    width: 100%;
     height: 60vh;
 
     div {
       margin: 300px 0px 0px 40px;
       width: 100%;
     }
-    
 
     .content-home {
       #imagem-seta-home {
@@ -105,11 +102,17 @@
 
       h1 {
         font-size: 2rem;
+        margin-right: 60px;
       }
 
       h2 {
         font-size: 1.5rem;
         margin-top: -30px;
+        margin-right: 60px;
+      }
+
+      #link-button {
+        margin-right: 60px;
       }
     }
 

@@ -16,7 +16,7 @@
   }
 
   .container-cards-works {
-    height: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,22 +24,21 @@
   }
 }
 
-
-
-
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
   .section-works {
-    width: 80%;
+    width: 100%;
     height: 80vh;
 
     h1 {
       font-size: 2rem;
-      margin-right: -100px;
     }
 
     .container-cards-works {
+      gap: 50px;
+      width: 100%;
+      justify-content: start;
       overflow-x: auto;
     }
   }

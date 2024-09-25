@@ -1,4 +1,4 @@
-@use 'variables';
+@use "variables";
 
 /* RESETANDO ESTILOS */
 * {
@@ -11,4 +11,10 @@
 
 body {
   background-color: variables.$primary-color;
+}
+
+@media screen and (max-width: 768px) {
+  html,body {
+    overflow-x: hidden;
+  }
 }

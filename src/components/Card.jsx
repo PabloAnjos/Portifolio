@@ -8,7 +8,9 @@ export function Card({ src, alt, content, hrefDeploy, hrefCode }) {
             <div className="card-works">
                 <img src={src} alt={alt} />
 
-                <p>{content}</p>
+                <div className="text-card">
+                    <p>{content}</p>
+                </div>
 
                 <div className="buttons-card">
                     <a href={hrefDeploy} target="_blank">Deploy</a>
