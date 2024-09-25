@@ -1,0 +1,100 @@
+@use "variables";
+
+.section-about-me {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    color: variables.$quaternary-color;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  span {
+    color: variables.$tertiary-color;
+  }
+
+  p {
+    color: variables.$quaternary-color;
+    max-width: 500px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  img {
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+  }
+
+  #fundo-imagem-avatar {
+    position: absolute;
+    z-index: 0;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: -50px;
+  }
+
+  #chao-avatar-about {
+    position: relative;
+    z-index: 0;
+    margin-left: -390px;
+    margin-bottom: -20px;
+    width: 400px;
+  }
+
+  #imagem-lampada-about {
+    margin-left: 400px;
+  }
+
+  #imagem-seta-about {
+    transform: rotate(160deg);
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+}
+
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+  .section-about-me {
+    width: 80%;
+    height: 60vh;
+  }
+
+  #paragraph-about-me {
+    img {
+      display: none;
+    }
+
+    h1 {
+      text-align: center;
+      margin-left: 100px;
+      font-size: 2rem;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1rem;
+      margin: 20px -50px 0px 50px;
+    }
+
+    #imagem-lampada-about {
+      display: none;
+    }
+
+    #imagem-seta-about {
+      display: none;
+    }
+  }
+
+  #image-aboute-me {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+@use 'variables';
+
+/* RESETANDO ESTILOS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variables.$primary-font;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: variables.$primary-color;
+}

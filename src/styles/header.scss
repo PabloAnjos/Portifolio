@@ -1,0 +1,51 @@
+@use "variables";
+
+nav {
+  background-color: #393e46;
+  width: 100%;
+  height: 6rem;
+  border: 1px solid variables.$quaternary-color;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    color: #fff;
+    font-family: variables.$secondary-font;
+    margin-left: 96px;
+    font-size: 2rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 96px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: variables.$quaternary-color;
+    font-size: 1.25rem;
+  }
+
+  a:hover {
+    color: variables.$tertiary-color;
+    transition: 0.3s;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+@use "variables";
+
+.section-works {
+  width: 100%;
+  height: 100vh;
+
+  h1 {
+    color: variables.$quaternary-color;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 300px;
+
+    span {
+      color: variables.$tertiary-color;
+    }
+  }
+
+  .container-cards-works {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+  .section-works {
+    width: 80%;
+    height: 80vh;
+
+    h1 {
+      font-size: 2rem;
+      margin-right: -100px;
+    }
+
+    .container-cards-works {
+      overflow-x: auto;
+    }
+  }
+}
