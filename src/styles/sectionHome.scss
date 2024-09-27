@@ -4,7 +4,7 @@
   width: 100%;
   height: 80vh;
 
-  div {
+  .content-home {
     margin: 300px 0px 0px 200px;
     width: 800px;
     height: 300px;
@@ -30,7 +30,7 @@
     #link-button {
       background-color: variables.$tertiary-color;
       color: variables.$quaternary-color;
-      padding: 20px;
+      padding: 15px;
       border-radius: 50px;
       text-decoration: none;
       box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.35);
@@ -46,7 +46,7 @@
 
   .container-icons {
     position: absolute;
-    margin-top: -20px;
+    margin: 0px 0px 0px 540px;
   }
 
   .icons {
@@ -86,5 +86,46 @@
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
-  
+  .section-home-page {
+    width: 100%;
+    height: 60vh;
+
+    div.content-home {
+      margin: 300px 0px 0px 10px;
+      width: 400px;
+      height: 300px;
+
+      #imagem-seta-home {
+        display: none;
+      }
+
+      h1 {
+        color: variables.$quaternary-color;
+        font-size: 2rem;
+      }
+
+      h2 {
+        color: variables.$tertiary-color;
+        font-size: 1rem;
+        margin-top: -30px;
+      }
+    }
+
+    img {
+      display: none;
+    }
+
+    img#fundo-avatar {
+      display: none;
+    }
+
+    img#image-chao {
+      display: none;
+    }
+
+    .container-icons {
+      position: absolute;
+      margin: -100px 0px 0px 150px;
+    }
+  }
 }

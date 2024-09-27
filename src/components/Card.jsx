@@ -6,7 +6,7 @@ export function Card({ src, alt, content, hrefDeploy, hrefCode }) {
     return (
         <>
             <div className="card-works">
-                <img src={src} alt={alt} />
+                <img src={src} alt={alt} id="imagens-card" />
 
                 <div className="text-card">
                     <p>{content}</p>

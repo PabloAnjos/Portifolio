@@ -145,9 +145,9 @@ function App() {
                         <img src={imgSetaAbout} alt="Imagem Seta" id="imagem-seta-contact" />
                         <img src={imgChaoAvatarHome} alt="Imagem Avatar" id="imagem-chao-contact" />
                   </div>
+
                   <div className="container-form">
                         
-
                         <form onSubmit={sendEmail}>
                               <label>Your Name:</label>
                               <input 

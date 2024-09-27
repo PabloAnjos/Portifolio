@@ -118,5 +118,44 @@
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
-  
+  .section-contact {
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+      font-size: 2.5rem;
+      position: absolute;
+    }
+
+    .container-images-contact {
+      display: none;
+    }
+
+    img {
+      display: none;
+    }
+
+    .container-form {
+      width: 350px;
+      height: 600px;
+
+      input {
+        margin-top: 15px;
+        width: 300px;
+      }
+
+      textarea {
+        width: 300px;
+        height: 300px;
+        margin: 50px 0px 0px 20px;
+        padding: 50px;
+      }
+
+      #imagem-enviar {
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 40px;
+      }
+    }
+  }
 }

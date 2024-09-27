@@ -18,8 +18,8 @@ export function Header() {
         <>
             <header>
                     <nav>
-                        <img src={imgMenu} alt="Imagem Menu" id="menu-hamburguer-button" />
                         <h1>Pablo Anjos</h1>
+                        <img src={imgMenu} alt="Imagem Menu" id="menu-hamburguer-button" />
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about-me">About Me</a></li>
@@ -27,6 +27,10 @@ export function Header() {
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
+
+                    <div className="menu-hamburgur">
+                        
+                    </div>
             </header>
         </>
     )
