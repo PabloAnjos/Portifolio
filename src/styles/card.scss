@@ -49,27 +49,5 @@
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
-  .card-works {
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 400px;
-
-    img {
-      width: 250px;
-      height: 160px;
-      margin: 10px 0px 0px 30px;
-    }
-
-    p {
-      width: 300px;
-      margin-top: -2px;
-    }
-
-    .buttons-card {
-      gap: 10px;
-      margin: 20px 0px 0px 50px;
-      width: 180px;
-      height: 30px;
-    }
-  }
+  
 }
