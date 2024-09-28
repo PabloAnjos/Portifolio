@@ -9,6 +9,12 @@
   scroll-behavior: smooth;
 }
 
-body {
+html, body {
   background-color: variables.$primary-color;
+  overflow-x: hidden;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
 }

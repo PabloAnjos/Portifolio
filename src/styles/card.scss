@@ -50,10 +50,10 @@
 
 @media screen and (max-width: 768px) {
   .card-works {
-    width: 400px;
+    width: 100%;
 
     #imagens-card {
-      margin-left: 15px;
+      margin-left: 25px;
       width: 240px;
       height: 150px;
     }
@@ -61,6 +61,8 @@
     p {
       color: variables.$quaternary-color;
       margin: 20px 10px 0px 25px;
+      width: 250px;
+      white-space: initial;
     }
 
     .buttons-card {

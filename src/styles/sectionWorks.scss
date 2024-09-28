@@ -37,8 +37,10 @@
     }
 
     .container-cards-works {
-      width: 400px;
+      width: 100%;
       overflow-x: auto;
+      white-space: nowrap;
+      justify-content: center;
     }
   }
 }

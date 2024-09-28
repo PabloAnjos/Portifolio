@@ -28,7 +28,7 @@ export function Header() {
                         </ul>
                     </nav>
 
-                    <div className="menu-hamburgur">
+                    <div className="menu-hamburguer">
                         
                     </div>
             </header>
