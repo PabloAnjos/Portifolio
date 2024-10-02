@@ -13,6 +13,7 @@ import imgLampadaAbout from "./assets/images/lightbulb.png"
 import imgSetaAbout from "./assets/images/Vector 186.png"
 import imgSetaHome from "./assets/images/Vector 187.png"
 import imgFeed from "./assets/images/feed.png"
+import imgMeow from "./assets/images/meow.png"
 import imgCalculadora from "./assets/images/calculadora.png"
 import imgTodoList from "./assets/images/todolis.png"
 import imgAvatarContact from "./assets/images/Group 2372.png"
@@ -116,22 +117,32 @@ function App() {
                 <h1>My recent <span>works</span></h1>
 
                 <div className="container-cards-works">
-                      <Card src={imgFeed} 
+                      <Card 
+                      src={imgFeed} 
                       content={"Este é um pequeno projeto agradável para interações do usuário. Este projeto permite os usuários fazer comentários, excluir comentários e curtir posts."} 
                       hrefDeploy={"https://pabloanjos.github.io/Feed/"}
                       hrefCode={"https://github.com/PabloAnjos/Feed"}
                       />
 
-                      <Card src={imgCalculadora} 
+                      <Card 
+                      src={imgCalculadora} 
                       content={"Uma calculadora agradável desenvolvida pra você fazer seus cálculos e tirar suas dúvidas do dia a dia. Seja a complexidade do cálculo."}
                       hrefDeploy={"https://calculadora-murex-eight.vercel.app/"}
                       hrefCode={"https://github.com/PabloAnjos/calculadora"}
                       />
 
-                      <Card src={imgTodoList} 
+                      <Card 
+                      src={imgTodoList} 
                       content={"My todo é uma aplicação web que permite aos usuários organizar suas tarefas diárias, colocando elas em uma lista e removendo ao estarem concluídas."}
                       hrefDeploy={"https://pabloanjos.github.io/my-todo/"}
                       hrefCode={"https://github.com/PabloAnjos/my-todo"}
+                      />
+
+                      <Card 
+                      src={imgMeow}
+                      content={"Meow é um ótimo café para encontrar com amigos ou familiare e fazer um pedido pra deixar esse encontro ainda mais especial e com um sabor único do Meow."}
+                      hrefDeploy={"https://pabloanjos.github.io/Meow-Caf-/"}
+                      hrefCode={"https://github.com/PabloAnjos/Meow-Caf-"}
                       />
                 </div>
         </section>
